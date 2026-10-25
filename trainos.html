@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Tutoring</title>
+    <link rel="stylesheet" href="trainos.css">
+    <link rel="icon" type="image/png" href="/siteicon.png">
+    <script src="trainos.js" defer></script>
+</head>
+<body>
+<div id="loading-screen">
+  <div class="loading-spinner"></div>
+  <div id="loading-text">Initializing...</div>
+  <script src="https://cdn.jsdelivr.net/gh/luminsdk/script@latest/lumin.min.js"></script>
+</div>
+
+    <section id="home-screen" class="screen">
+
+         <header>
+             <h1 class="top-title">TrainArcade</h1>
+         </header>
+         <main>
+            <h2>!Welcome to TrainArcade!</h2>
+            <div id="mainscreen-buttons">
+                <button id="games-button">Games</button>
+                <button id="apps-button">Apps</button>
+                <button id="proxy-button">Proxy</button>
+            </div>
+         </main>
+         <footer>
+            <a>This is a project by a small group of developers, please don't expect much and don't steal our work. </a>
+         </footer>
+    </section>
+
+    <section id="games-screen" class="screen-hidden">
+         <button class="back-button">← Back to Home</button>
+         <b>!Games!</b>
+         <div id="games"></div>
+    </section>
+
+    <section id="apps-screen" class="screen-hidden">
+         <b>!Apps!</b>
+         <br><br>
+         <button class="back-button">← Back to Home</button>
+    </section>
+
+    <section id="proxy-screen" class="screen-hidden">
+         <b>!Proxy!</b>
+         <br><br>
+         <button class="back-button">← Back to Home</button>
+    </section>
+</body>
+</html>
